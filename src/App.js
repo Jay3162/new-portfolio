@@ -11,15 +11,17 @@ function App() {
 
     <div id="page-wrapper">
 
-        <header id="header" class="alt">
+        <header id="header" className="alt">
           <h1><a href="index.html">Portfolio</a></h1>
+          
         </header>
 
 
         <section id="banner">
-          <div class="inner">
+          <div className="inner">
             <h2>Hello, I'm Jamal Davis!</h2>
             <p>A man with a passion for learning and problem solving.</p>
+            
           </div>
         </section>
 
@@ -27,61 +29,61 @@ function App() {
         <section id="wrapper">
 
 
-            <section id="one" class="wrapper spotlight style1">
-              <div class="inner">
-                <a href="#" class="image"><img src={circle} alt="" /></a>
-                <div class="content">
-                  <h2 class="major">About me</h2>
+            <section id="one" className="wrapper spotlight style1">
+              <div className="inner">
+                <a href="#" className="image"><img src={circle} alt="" /></a>
+                <div className="content">
+                  <h2 className="major">About me</h2>
                   <p>I can work with Javascript, node.js, html, css, bootstrap, react and am always up for learning new skills and technologies.</p>
-                  <a href="#" class="special">Learn more</a>
+                  <a href="#" className="special">Learn more</a>
                 </div>
               </div>
             </section>
 
-            <section id="two" class="wrapper alt spotlight style2">
-              <div class="inner">
+            <section id="two" className="wrapper alt spotlight style2">
+              <div className="inner">
                 <a href="#" class="image"><img src={circle} alt="" /></a>
-                <div class="content">
+                <div className="content">
                   <p>I'll typically be building a new thing, learning a software/framework or staying up to date with the latest news and events via articles. 
                     Otherwise, I enjoy spending time with friends when I can.</p>
-                  <a href="#" class="special">Learn more</a>
+                  <a href="#" className="special">Learn more</a>
                 </div>
               </div>
             </section>
 
 
-            <section id="three" class="wrapper spotlight style3">
-              <div class="inner">
-                <a href='https://github.com/Jay3162' class="image"><img src={github} alt="" /></a>
-                <div class="content">
-                  <h2 class="major">Github</h2>
-                  <a href='https://github.com/Jay3162' class="special">Learn more</a>
+            <section id="three" className="wrapper spotlight style3">
+              <div className="inner">
+                <a href='https://github.com/Jay3162' className="image"><img src={github} alt="" /></a>
+                <div className="content">
+                  <h2 className="major">Github</h2>
+                  <a href='https://github.com/Jay3162' className="special">Learn more</a>
                 </div>
               </div>
             </section>
 
 
-            <section id="four" class="wrapper alt style1">
-              <div class="inner">
-                <h2 class="major">Projects</h2>
-                <section class="features">
+            <section id="four" className="wrapper alt style1">
+              <div className="inner">
+                <h2 className="major">Projects</h2>
+                <section className="features">
                   <article>
-                    <a href="#" class="image"><img src={store} alt="" /></a>
-                    <h3 class="major">Instant (ecommerce-site)</h3>
+                    <a href="#" className="image"><img src={store} alt="" /></a>
+                    <h3 className="major">Instant (ecommerce-site)</h3>
                     <p>An ecommerce-site based off Amazon which lets users create an account, view products, add them to a basket and checkout.</p>
-                    <a href='https://github.com/Jay3162/Instant' class="special">Code</a>
+                    <a href='https://github.com/Jay3162/Instant' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="https://jocular-pothos-2817b5.netlify.app/" class="image"><img src={restaurant} alt="" /></a>
-                    <h3 class="major">Restaurant Finder</h3>
+                    <a href="https://jocular-pothos-2817b5.netlify.app/" className="image"><img src={restaurant} alt="" /></a>
+                    <h3 className="major">Restaurant Finder</h3>
                     <p>This restaurant finder takes in a type of food and a location and serves you plenty of dining options in that location.</p>
-                    <a href='https://github.com/Jay3162/Restaurant-finder' class="special">Code</a>
+                    <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="https://airbnb-emulated.netlify.app/" class="image"><img src={airbnb} alt="" /></a>
-                    <h3 class="major">Airbnb Clone</h3>
+                    <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
+                    <h3 className="major">Airbnb Clone</h3>
                     <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
-                    <a href='https://github.com/Jay3162/airbnb-clone' class="special">Code</a>
+                    <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
                   </article>
                 </section>
               </div>
@@ -90,10 +92,10 @@ function App() {
         </section>
 
         <section id="footer">
-          <div class="inner">
-            <h2 class="major">Get in touch</h2>
-            <ul class="contact">
-              <li class="icon solid fa-envelope"><a href="#">davisjamal647@gmail.com</a></li>
+          <div className="inner">
+            <h2 className="major">Get in touch</h2>
+            <ul className="contact">
+              <li className="icon solid fa-envelope"><a href="#">davisjamal647@gmail.com</a></li>
             </ul>
           </div>
         </section>
