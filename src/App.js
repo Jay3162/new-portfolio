@@ -68,7 +68,7 @@ function App() {
                 <h2 className="major">Projects</h2>
                 <section className="features">
                   <article>
-                    <a href="#" className="image"><img src={store} alt="" /></a>
+                    <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="" /></a>
                     <h3 className="major">Instant (ecommerce-site)</h3>
                     <p>An ecommerce-site based off Amazon which lets users create an account, view products, add them to a basket and checkout.</p>
                     <a href='https://github.com/Jay3162/Instant' className="special">Code</a>
