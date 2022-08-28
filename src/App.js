@@ -83,7 +83,7 @@ function App() {
                   <article>
                     <a href="https://sportsample.000webhostapp.com/" className="image"><img src={sportTheme} alt="" /></a>
                     <h3 className="major">WordPress Theme</h3>
-                    <p>A WordPress theme containing a landing page, using Wampserver WordPress, elementor and php.</p>
+                    <p>A WordPress theme for a gym or sports site containing a landing page, using Wampserver, WordPress, elementor and php.</p>
                     <a href='https://github.com/Jay3162/wp-site' className="special">Code</a>
                   </article>
                   <article>
