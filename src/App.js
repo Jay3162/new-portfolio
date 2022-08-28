@@ -7,6 +7,7 @@ function App() {
   const store = new URL('./images/ecommerce-site-thumbnail.jpg', import.meta.url)
   const restaurant = new URL('./images/restaurant-finder-thumbnail.jpg', import.meta.url)
   const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url)
+  const sportTheme = new URL('./images/Wp-sport-sample.jpg', import.meta.url)
   return (
 
     <div id="page-wrapper">
@@ -16,7 +17,7 @@ function App() {
           
         </header>
 
-
+        {/* Intro */}
         <section id="banner">
           <div className="inner">
             <h2>Hello, I'm Jamal Davis!</h2>
@@ -28,7 +29,7 @@ function App() {
 
         <section id="wrapper">
 
-
+            {/* About me */}
             <section id="one" className="wrapper spotlight style1">
               <div className="inner">
                 <a href="#" className="image"><img src={circle} alt="" /></a>
@@ -42,7 +43,7 @@ function App() {
 
             <section id="two" className="wrapper alt spotlight style2">
               <div className="inner">
-                <a href="#" class="image"><img src={circle} alt="" /></a>
+                <a href="#" className="image"><img src={circle} alt="" /></a>
                 <div className="content">
                   <p>I'll typically be building a new thing, learning a software/framework or staying up to date with the latest news and events via articles. 
                     Otherwise, I enjoy spending time with friends when I can.</p>
@@ -51,7 +52,7 @@ function App() {
               </div>
             </section>
 
-
+            {/* Github Link */}
             <section id="three" className="wrapper spotlight style3">
               <div className="inner">
                 <a href='https://github.com/Jay3162' className="image"><img src={github} alt="" /></a>
@@ -62,7 +63,7 @@ function App() {
               </div>
             </section>
 
-
+            {/* Projects */}
             <section id="four" className="wrapper alt style1">
               <div className="inner">
                 <h2 className="major">Projects</h2>
@@ -80,6 +81,12 @@ function App() {
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   <article>
+                    <a href="https://sportsample.000webhostapp.com/" className="image"><img src={sportTheme} alt="" /></a>
+                    <h3 className="major">WordPress Theme</h3>
+                    <p>A WordPress theme containing a landing page, using Wampserver WordPress, elementor and php.</p>
+                    <a href='https://github.com/Jay3162/wp-site' className="special">Code</a>
+                  </article>
+                  <article>
                     <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
                     <h3 className="major">Airbnb Clone</h3>
                     <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
@@ -91,6 +98,7 @@ function App() {
 
         </section>
 
+        {/* Footer and contact */}
         <section id="footer">
           <div className="inner">
             <h2 className="major">Get in touch</h2>
