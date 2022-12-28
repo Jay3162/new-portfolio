@@ -81,7 +81,7 @@ function App() {
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="https://sportsample.000webhostapp.com/" className="image"><img src={blank} alt="" /></a>
+                    <a href="" className="image"><img src={blank} alt="" /></a>
                     <h3 className="major">Blank</h3>
                     <p></p>
                     <a href="" className="special">Code</a>
