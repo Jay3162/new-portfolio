@@ -7,7 +7,7 @@ function App() {
   const store = new URL('./images/ecommerce-site-thumbnail.jpg', import.meta.url)
   const restaurant = new URL('./images/restaurant-finder-thumbnail.jpg', import.meta.url)
   const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url)
-  const sportTheme = new URL('./images/Wp-sport-sample.jpg', import.meta.url)
+  const blank = new URL('./images/alt-img.jpg', import.meta.url)
   return (
 
     <div id="page-wrapper">
@@ -81,9 +81,9 @@ function App() {
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="https://sportsample.000webhostapp.com/" className="image"><img src={sportTheme} alt="" /></a>
-                    <h3 className="major">WordPress Theme</h3>
-                    <p>A WordPress theme for a gym or sports site containing a landing page, using Wampserver, WordPress, elementor and php.</p>
+                    <a href="https://sportsample.000webhostapp.com/" className="image"><img src={blank} alt="" /></a>
+                    <h3 className="major">Blank</h3>
+                    <p></p>
                     <a href='https://github.com/Jay3162/wp-site' className="special">Code</a>
                   </article>
                   <article>
