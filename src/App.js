@@ -84,7 +84,7 @@ function App() {
                     <a href="https://sportsample.000webhostapp.com/" className="image"><img src={blank} alt="" /></a>
                     <h3 className="major">Blank</h3>
                     <p></p>
-                    <a href='https://github.com/Jay3162/wp-site' className="special">Code</a>
+                    <a href="" className="special">Code</a>
                   </article>
                   <article>
                     <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
