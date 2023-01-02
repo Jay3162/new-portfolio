@@ -80,12 +80,12 @@ function App() {
                     <p>This restaurant finder takes in a type of food and a location and serves you plenty of dining options in that location.</p>
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
-                  <article>
+                  {/* <article>
                     <a href="" className="image"><img src={blank} alt="" /></a>
                     <h3 className="major">Blank</h3>
                     <p></p>
                     <a href="" className="special">Code</a>
-                  </article>
+                  </article> */}
                   <article>
                     <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
                     <h3 className="major">Airbnb Clone</h3>
