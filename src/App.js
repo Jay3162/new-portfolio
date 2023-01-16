@@ -7,7 +7,7 @@ function App() {
   const store = new URL('./images/ecommerce-site-thumbnail.jpg', import.meta.url)
   const restaurant = new URL('./images/restaurant-finder-thumbnail.jpg', import.meta.url)
   const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url)
-  const blank = new URL('./images/blank-img.png', import.meta.url)
+  const chat = new URL('./images/chat-app-thumbnail.png', import.meta.url)
   return (
 
     <div id="page-wrapper">
@@ -81,10 +81,11 @@ function App() {
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="" className="image"><img src={blank} alt="" /></a>
-                    <h3 className="major">Blank project</h3>
-                    <p></p>
-                    <a href='' className="special">Code</a>
+                    <a href="https://unique-figolla-069883.netlify.app/" className="image"><img src={chat} alt="" /></a>
+                    <h3 className="major">Chat App</h3>
+                    <p>Chat app built with Socket.io and Node.js on the backend and React on the front end, firebase for user logins.</p>
+                    <a href='https://github.com/Jay3162/chat-app' className="special">Code</a>
+                    <a href='https://github.com/Jay3162/chat-app-server' className="special">Code</a>
                   </article>
                   <article>
                     <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
