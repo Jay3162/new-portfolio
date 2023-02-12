@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './assets/css/main.css';
 
 function App() {
-  const github = new URL('./images/github-logo.png', import.meta.url)
-  const circle = new URL('./images/pic01.jpg', import.meta.url)
-  const store = new URL('./images/ecommerce-site-thumbnail.jpg', import.meta.url)
-  const restaurant = new URL('./images/restaurant-finder-thumbnail.jpg', import.meta.url)
-  const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url)
-  const chat = new URL('./images/chat-app-thumbnail.png', import.meta.url)
+  const github = new URL('./images/github-logo.png', import.meta.url);
+  const circle = new URL('./images/pic01.jpg', import.meta.url);
+  const store = new URL('./images/ecommerce-site-thumbnail.jpg', import.meta.url);
+  const restaurant = new URL('./images/restaurant-finder-thumbnail.jpg', import.meta.url);
+  const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url);
+  const chat = new URL('./images/chat-app-thumbnail.png', import.meta.url);
+  const solblue = new URL('./images/solblue thumbnail.png', import.meta.url);
   return (
 
     <div id="page-wrapper">
@@ -69,30 +70,37 @@ function App() {
                 <h2 className="major">Projects</h2>
                 <section className="features">
                   <article>
-                    <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="" /></a>
+                    <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="E-commerce site" /></a>
                     <h3 className="major">Instant (ecommerce-site)</h3>
                     <p>An ecommerce-site based off Amazon which lets users create an account, view products, add them to a basket and checkout.</p>
                     <a href='https://github.com/Jay3162/Instant' className="special">Code</a>
                   </article>
                   <article>
-                    <a href="https://jocular-pothos-2817b5.netlify.app/" className="image"><img src={restaurant} alt="" /></a>
+                    <a href="https://jocular-pothos-2817b5.netlify.app/" className="image"><img src={restaurant} alt="A restaurant finder" /></a>
                     <h3 className="major">Restaurant Finder</h3>
                     <p>This restaurant finder takes in a type of food and a location and serves you plenty of dining options in that location.</p>
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
-                  <article>
-                    <a href="https://unique-figolla-069883.netlify.app/" className="image"><img src={chat} alt="" /></a>
+                  {/* <article>
+                    <a href="https://unique-figolla-069883.netlify.app/" className="image"><img src={chat} alt="A pleasant chat app" /></a>
                     <h3 className="major">Chat App</h3>
                     <p>Chat app built with Socket.io and Node.js on the backend and React on the front end, firebase for user logins.</p>
                     <a href='https://github.com/Jay3162/chat-app' className="special">Code</a>
                     <a href='https://github.com/Jay3162/chat-app-server' className="special">Code</a>
-                  </article>
+                  </article> */}
                   <article>
-                    <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="" /></a>
+                    <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="Airbnb's landing page from 2021" /></a>
                     <h3 className="major">Airbnb Clone</h3>
                     <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
                     <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
                   </article>
+                  <article>
+                    <a href="https://solblue.netlify.app/" className="image"><img src={solblue} alt="Solblue's portfolio" /></a>
+                    <h3 className="major">Client's Portfolio</h3>
+                    <p>A beautiful portfolio website built with React and hosted on Netlify according to my client's specifications.</p>
+                    <a href='https://github.com/Jay3162/BenPortfolio' className="special">Code</a>
+                  </article>
+                
                 </section>
               </div>
             </section>
