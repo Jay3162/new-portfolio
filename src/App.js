@@ -9,6 +9,8 @@ function App() {
   const airbnb = new URL('./images/airbnb-thumbnail.jpg', import.meta.url);
   const chat = new URL('./images/chat-app-thumbnail.png', import.meta.url);
   const solblue = new URL('./images/solblue thumbnail.png', import.meta.url);
+  const proof = new URL('./images/proof-thumbnail.jpg', import.meta.url);
+  const article = new URL('./images/article-finder-thumbnail.jpg', import.meta.url);
   return (
 
     <div id="page-wrapper">
@@ -70,6 +72,29 @@ function App() {
                 <h2 className="major">Projects</h2>
                 <section className="features">
                   <article>
+                    <a href="https://reports.proofinsight.com/" className="image"><img src={proof} alt="Solblue's portfolio" /></a>
+                    <h3 className="major">Proof Insight Reports Revamp</h3>
+                    <p>A redesign of the reports page in WordPress and PHP, that's completely responsive and adds new features such as a trends section and carousel.</p>
+                  </article>
+                  <article>
+                    <a href="https://solblue.netlify.app/" className="image"><img src={solblue} alt="Solblue's portfolio" /></a>
+                    <h3 className="major">Client's Portfolio</h3>
+                    <p>A beautiful portfolio website built with React and hosted on Netlify according to my client's specifications.</p>
+                    <a href='https://github.com/Jay3162/BenPortfolio' className="special">Code</a>
+                  </article>
+                  <article>
+                    <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="Airbnb's landing page from 2021" /></a>
+                    <h3 className="major">Airbnb Clone</h3>
+                    <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
+                    <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
+                  </article>
+                  <article>
+                    <a href="https://synthetix-article-finder.netlify.app/" className="image"><img src={article} alt="Solblue's portfolio" /></a>
+                    <h3 className="major">Synthetix Article Finder</h3>
+                    <p>A simple Article finding tool, enter a term into the search bar and have related results generated on screen.</p>
+                    <a href='https://github.com/Jay3162/Article-Finder' className="special">Code</a>
+                  </article> 
+                  <article>
                     <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="E-commerce site" /></a>
                     <h3 className="major">Instant (ecommerce-site)</h3>
                     <p>An ecommerce-site based off Amazon which lets users create an account, view products, add them to a basket and checkout.</p>
@@ -87,20 +112,7 @@ function App() {
                     <p>Chat app built with Socket.io and Node.js on the backend and React on the front end, firebase for user logins.</p>
                     <a href='https://github.com/Jay3162/chat-app' className="special">Code</a>
                     <a href='https://github.com/Jay3162/chat-app-server' className="special">Code</a>
-                  </article> */}
-                  <article>
-                    <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="Airbnb's landing page from 2021" /></a>
-                    <h3 className="major">Airbnb Clone</h3>
-                    <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
-                    <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
-                  </article>
-                  <article>
-                    <a href="https://solblue.netlify.app/" className="image"><img src={solblue} alt="Solblue's portfolio" /></a>
-                    <h3 className="major">Client's Portfolio</h3>
-                    <p>A beautiful portfolio website built with React and hosted on Netlify according to my client's specifications.</p>
-                    <a href='https://github.com/Jay3162/BenPortfolio' className="special">Code</a>
-                  </article>
-                
+                  </article> */}              
                 </section>
               </div>
             </section>
