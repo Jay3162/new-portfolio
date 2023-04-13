@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#eye {
+  position: absolute;
+  background-color: white;
+  aspect-ratio: 1;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(200px);
+  translate: -50%, -50%;
+  top: 50%;
+  left: 50%;
+ 
+}

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './assets/css/main.css';
+import react, {useState} from 'react';
 
 function App() {
   const github = new URL('./images/github-logo.png', import.meta.url);
@@ -11,6 +12,16 @@ function App() {
   const solblue = new URL('./images/solblue thumbnail.png', import.meta.url);
   const proof = new URL('./images/proof-thumbnail.jpg', import.meta.url);
   const article = new URL('./images/article-finder-thumbnail.jpg', import.meta.url);
+  const jsLogo = new URL('./images/javascript-736400.png', import.meta.url);
+  const codeLogo = new URL('./images/coding-7224945.png', import.meta.url);
+  const profile = new URL('./images/profile.jpg', import.meta.url);
+
+  const [eye, setEye] = useState({ left: 0, top: 0 });
+
+  const MoveEye = (e) => {
+    const { clientX, clientY } = e;
+    setEye({ left: clientX, top: clientY });
+  }
   return (
 
     <div id="page-wrapper">
@@ -22,7 +33,8 @@ function App() {
 
         {/* Intro */}
         <section id="banner">
-          <div className="inner">
+          <div id="eye" style={{left: eye.left, top: eye.top}}></div>
+          <div className="inner" onMouseMove={MoveEye}>
             <h2>Hello, I'm Jamal Davis!</h2>
             <p>A man with a passion for learning and problem solving.</p>
             
@@ -35,10 +47,10 @@ function App() {
             {/* About me */}
             <section id="one" className="wrapper spotlight style1">
               <div className="inner">
-                <a href="#" className="image"><img src={circle} alt="" /></a>
+                <a href="#" className="image"><img src={profile} alt="" /></a>
                 <div className="content">
                   <h2 className="major">About me</h2>
-                  <p>I can work with Javascript, node.js, html, css, bootstrap, react and am always up for learning new skills and technologies.</p>
+                  <p>I can work with Javascript, html, css, bootstrap, react, WordPress and am always up for learning new skills and technologies.</p>
                   <a href="#" className="special">Learn more</a>
                 </div>
               </div>
@@ -46,7 +58,7 @@ function App() {
 
             <section id="two" className="wrapper alt spotlight style2">
               <div className="inner">
-                <a href="#" className="image"><img src={circle} alt="" /></a>
+                <a href="#" className="image"><img src={codeLogo} alt="" /></a>
                 <div className="content">
                   <p>I'll typically be building a new thing, learning a software/framework or staying up to date with the latest news and events via articles. 
                     Otherwise, I enjoy spending time with friends when I can.</p>
@@ -68,9 +80,10 @@ function App() {
 
             {/* Projects */}
             <section id="four" className="wrapper alt style1">
-              <div className="inner">
+              <div className="inner" >
+                <div id="eye" style={{left: eye.left, top: eye.top}}></div>
                 <h2 className="major">Projects</h2>
-                <section className="features">
+                <section className="features" onMouseMove={MoveEye}>
                   <article>
                     <a href="https://reports.proofinsight.com/" className="image"><img src={proof} alt="Solblue's portfolio" /></a>
                     <h3 className="major">Proof Insight Reports Revamp</h3>
