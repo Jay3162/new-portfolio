@@ -14,7 +14,7 @@ function App() {
   const article = new URL('./images/article-finder-thumbnail.jpg', import.meta.url);
   const jsLogo = new URL('./images/javascript-736400.png', import.meta.url);
   const codeLogo = new URL('./images/coding-7224945.png', import.meta.url);
-  const profile = new URL('./images/profile.jpg', import.meta.url);
+  const profile = new URL('./images/IMG_20230213_093808 (1).jpg', import.meta.url);
 
   const [eye, setEye] = useState({ left: 0, top: 0 });
 
