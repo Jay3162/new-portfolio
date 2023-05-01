@@ -101,12 +101,12 @@ function App() {
                     <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
                     <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
                   </article>
-                  <article>
+                  {/* <article>
                     <a href="https://synthetix-article-finder.netlify.app/" className="image"><img src={article} alt="Solblue's portfolio" /></a>
                     <h3 className="major">Synthetix Article Finder</h3>
                     <p>A simple Article finding tool, enter a term into the search bar and have related results generated on screen.</p>
                     <a href='https://github.com/Jay3162/Article-Finder' className="special">Code</a>
-                  </article> 
+                  </article>  */}
                   <article>
                     <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="E-commerce site" /></a>
                     <h3 className="major">Instant (ecommerce-site)</h3>
