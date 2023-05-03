@@ -3024,12 +3024,25 @@ input, select, textarea {
 				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
+				overflow: hidden;
 			}
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+
 				}
+
+				.features article .image img:hover {
+					-webkit-transform: scale(1.3);
+					transform: scale(1.3);
+				}
+
+				
 
 		@media screen and (max-width: 980px) {
 

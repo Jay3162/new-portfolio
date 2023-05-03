@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './assets/css/main.css';
 import react, {useState} from 'react';
 
@@ -34,9 +33,9 @@ function App() {
         {/* Intro */}
         <section id="banner">
           <div id="eye" style={{left: eye.left, top: eye.top}}></div>
-          <div className="inner" onMouseMove={MoveEye}>
+          <div className="inner" onMouseMove={MoveEye} id="intro-header">
             <h2>Hello, I'm Jamal Davis!</h2>
-            <p>A man with a passion for learning and problem solving.</p>
+            <p>Passionate Front End Web Developer specialising in high-quality websites and web apps.</p>
             
           </div>
         </section>
@@ -50,8 +49,8 @@ function App() {
                 <a href="#" className="image"><img src={profile} alt="" /></a>
                 <div className="content">
                   <h2 className="major">About me</h2>
-                  <p>I can work with Javascript, html, css, bootstrap, react, WordPress and am always up for learning new skills and technologies.</p>
-                  <a href="#" className="special">Learn more</a>
+                  <p>
+In terms of my skillset, I possess expertise in a wide range of technologies, including but not limited to Javascript, HTML, CSS, Bootstrap, React, and WordPress. Furthermore, I am always keen on expanding my knowledge and mastering new skills and technologies.</p>
                 </div>
               </div>
             </section>
@@ -60,9 +59,7 @@ function App() {
               <div className="inner">
                 <a href="#" className="image"><img src={codeLogo} alt="" /></a>
                 <div className="content">
-                  <p>I'll typically be building a new thing, learning a software/framework or staying up to date with the latest news and events via articles. 
-                    Otherwise, I enjoy spending time with friends when I can.</p>
-                  <a href="#" className="special">Learn more</a>
+                  <p>Typically, I am engrossed in either developing a new project, exploring and mastering a new software or framework, or staying abreast of the latest industry news and events by reading articles. When I'm not doing any of these, I relish spending quality time with my friends whenever possible.</p>
                 </div>
               </div>
             </section>
@@ -87,18 +84,18 @@ function App() {
                   <article>
                     <a href="https://reports.proofinsight.com/" className="image"><img src={proof} alt="Solblue's portfolio" /></a>
                     <h3 className="major">Proof Insight Reports Revamp</h3>
-                    <p>A redesign of the reports page in WordPress and PHP, that's completely responsive and adds new features such as a trends section and carousel.</p>
+                    <p>During my tenure at Proof Insight, I spearheaded the revamp of the reports page on WordPress and PHP. This redesign entailed creating a fully responsive page that incorporated various new features, such as an informative trends section, intuitive pop-ups, and a dynamic carousel.</p>
                   </article>
                   <article>
                     <a href="https://solblue.netlify.app/" className="image"><img src={solblue} alt="Solblue's portfolio" /></a>
                     <h3 className="major">Client's Portfolio</h3>
-                    <p>A beautiful portfolio website built with React and hosted on Netlify according to my client's specifications.</p>
+                    <p>I developed a visually appealing portfolio website for my client using React and hosted it on Netlify. The website was designed to meet my client's specific requirements and included an intuitive light theme toggle. Additionally, the website provided visitors with the opportunity to play my client's videos and songs.</p>
                     <a href='https://github.com/Jay3162/BenPortfolio' className="special">Code</a>
                   </article>
                   <article>
                     <a href="https://airbnb-emulated.netlify.app/" className="image"><img src={airbnb} alt="Airbnb's landing page from 2021" /></a>
                     <h3 className="major">Airbnb Clone</h3>
-                    <p>A clone of Airbnb's home page matching the site's layout and design 1 for 1, made in react with css and hosted on Netlify.</p>
+                    <p>Using React and CSS, I created a faithful 1-for-1 replica of Airbnb's home page, complete with matching layout and design. This demo was hosted on Netlify and served as a showcase of my ability to replicate the design of existing websites. While it lacked any advanced features or functionality, it provided a glimpse into my proficiency with React and CSS.</p>
                     <a href='https://github.com/Jay3162/airbnb-clone' className="special">Code</a>
                   </article>
                   {/* <article>
@@ -110,13 +107,13 @@ function App() {
                   <article>
                     <a href="https://melodic-pegasus-7703e5.netlify.app/" className="image"><img src={store} alt="E-commerce site" /></a>
                     <h3 className="major">Instant (ecommerce-site)</h3>
-                    <p>An ecommerce-site based off Amazon which lets users create an account, view products, add them to a basket and checkout.</p>
+                    <p>I built an e-commerce website that enables users to create an account, view products, add them to a basket, and complete the checkout process. The website utilized an API to generate products dynamically, and it also incorporated robust sign-up and login functionality for users. The website was designed to provide a seamless shopping experience.</p>
                     <a href='https://github.com/Jay3162/Instant' className="special">Code</a>
                   </article>
                   <article>
                     <a href="https://jocular-pothos-2817b5.netlify.app/" className="image"><img src={restaurant} alt="A restaurant finder" /></a>
                     <h3 className="major">Restaurant Finder</h3>
-                    <p>This restaurant finder takes in a type of food and a location and serves you plenty of dining options in that location.</p>
+                    <p>I developed a restaurant finder that leverages Yelp's API to enable users to search for dining options based on their preferred type of cuisine and location. The website delivers a plethora of dining options in the specified area, making it an ideal tool for those seeking to explore new culinary experiences.</p>
                     <a href='https://github.com/Jay3162/Restaurant-finder' className="special">Code</a>
                   </article>
                   {/* <article>
