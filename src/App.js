@@ -13,7 +13,8 @@ function App() {
   const article = new URL('./images/article-finder-thumbnail.jpg', import.meta.url);
   const jsLogo = new URL('./images/javascript-736400.png', import.meta.url);
   const codeLogo = new URL('./images/coding-7224945.png', import.meta.url);
-  const profile = new URL('./images/IMG_20230213_093808 (1).jpg', import.meta.url);
+  const profile = new URL('./images/pro_pic.jpg', import.meta.url);
+  const gbnews = new URL('./images/gbn_image_2.png', import.meta.url);
 
   const [eye, setEye] = useState({ left: 0, top: 0 });
 
@@ -81,10 +82,16 @@ In terms of my skillset, I possess expertise in a wide range of technologies, in
                 <div id="eye" style={{left: eye.left, top: eye.top}}></div>
                 <h2 className="major">Projects</h2>
                 <section className="features" onMouseMove={MoveEye}>
-                  <article>
+                  {/* <article>
                     <a href="https://reports.proofinsight.com/" className="image"><img src={proof} alt="Solblue's portfolio" /></a>
                     <h3 className="major">Proof Insight Reports Revamp</h3>
                     <p>During my tenure at Proof Insight, I spearheaded the revamp of the reports page on WordPress and PHP. This redesign entailed creating a fully responsive page that incorporated various new features, such as an informative trends section, intuitive pop-ups, and a dynamic carousel.</p>
+                  </article> */}
+                  <article>
+                    <a href="https://www.gbnews.com/" className="image"><img src={gbnews} alt="gbnews" /></a>
+                    <h3 className="major">GB News</h3>
+                    <p>I'm currently part of the GB News development team, maintaining and updating the website with new features, functionality and improvements.</p>
+                    {/* <a href='https://github.com/Jay3162/BenPortfolio' className="special">Code</a> */}
                   </article>
                   <article>
                     <a href="https://solblue.netlify.app/" className="image"><img src={solblue} alt="Solblue's portfolio" /></a>
